@@ -20,9 +20,4 @@
 کافیست دستور زیر را در سرور اوبونتوی خود وارد کنید:
 
 ```bash
-curl -sSL https://raw.githubusercontent.com/mr-sepehr/WgDashboard-Backup/main/WgdashboardBackup.sh | bash
-
-
-
-
-
+bash -i <(curl -sSL https://raw.githubusercontent.com/mr-sepehr/WgDashboard-Backup/main/WgdashboardBackup.sh)
