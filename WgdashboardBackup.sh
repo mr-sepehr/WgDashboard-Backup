@@ -9,7 +9,7 @@ read -p "Telegram Numeric Chat ID: " CHAT_ID
 echo "اسم کانفیگ‌های WireGuard رو وارد کن (مثل wg1 یا wg1,wg2,wg3):"
 read -p "WireGuard Configs: " CONFIGS_INPUT
 
-# ساخت لیست فایل‌ها به سبک پایتون با خط جدید واقعی
+
 FILES_LIST="    \"/root/WGDashboard/src/db/wgdashboard_job.db\",\n    \"/root/WGDashboard/src/db/wgdashboard.db\","
 IFS=',' read -ra CONFIG_ARRAY <<< "$CONFIGS_INPUT"
 for config in "${CONFIG_ARRAY[@]}"; do
